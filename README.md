@@ -14,7 +14,7 @@ File list:
 
 This project has a small story to it.<br>
 Back in school I was learning C++ and obviously got obsessed with WinAPI and the things it was capable of.<br>
-Because I wasn't nearly skilled enough I couldn't make anything interesting or impressive. So - I told myself that when I will eventually be good enough I attempt making two things.<br>
+Because I wasn't nearly skilled enough I couldn't make anything interesting or impressive. So - I told myself that when I will eventually be good enough I will attempt making two things.<br>
 One - I will make a C++ game with ASCII graphics that uses either ray-casting or parallax as base.<br>
 Two - I will make a malware akin to the stuff that Leurak and other people were making years ago (except for maybe the whole your PC is dead now thing).<br>
 <br>
