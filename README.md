@@ -21,8 +21,8 @@ Two - I will make a malware akin to the stuff that Leurak and other people were 
 So here I am now, with two things I promised myself I'll make, and I am given a programming language project.<br>
 Chaos ensues.<br>
 <br>
-<br>
-So, okay. I need to make a game that somehow continuously generates obstacles and ALSO uses a parallax effect. How would I do that?<br>
+So, okay. <br>
+I need to make a game that somehow continuously generates obstacles and ALSO uses a parallax effect. How would I do that? <br>
 I came up with a fun idea. What if I generate sections equal to the size of the camera and then conveyor belt them towards the player?
 There we go - that's how the whole engine works. It generates a chunk and then waits until the chunk is fully visible on camera.
 Then it will generate another one, put it directly to the right of that chunk and then wait until the player reaches the position again.
@@ -37,7 +37,6 @@ Then I sprinkled in some small blocks, and now the game is too hard. Awesome. I 
 Then it hit me - what if I had invincibility frames that I could collect, but they were limited to a certain amount? That should work, right?
 And it did. It worked out hilariously well. Most walls weren't that thick, so they were easy to bust through, but if you wanted to take on a thick wall, you would need to save them, and you couldn't save too many.<br>
 <br>
-<br>
 And that's the game itself, but only half the issue. I needed to make it more exciting.
 I started looking through the awful things WinAPI could do to bitmaps and what exactly it could make into a bitmap.
 The answer was clear - almost everything. But I didn't need much for the payloads. <br>
@@ -45,17 +44,12 @@ Screen tearing was the hardest to make because I had to tweak the math a lot in 
 When I got it to work, I figured that I should make it interesting by using both AND and OR blending. Later I made the game activate the latter on the second half.
 Everything else, icon generation, image generation, cursor spam, etc. etc. was easy to make, you just need to figure out where to take the bitmaps from.<br>
 <br>
-<br>
 After I was done, I had a thought that maybe it would be cool if I was to make the payloads into parts of the main code and not separate programs.
 I could. But to me, having them as separate programs that you could launch separately was cooler. Like, after you beat the main game, the payloads are here.
 Go send them to your friend as a prank or something. It would be funny. <br>
 <br>
-<br>
-<br>
 That's about it. Thanks for reading, the one singular person to reach this point (or even find this text wall, for that matter).
 Have a good one.<br>
-<br>
-<br>
 <br>
 P.S. you may be wondering, X Future, why haven't you chosen ray-casting instead?
 Answer - I did write it and then decided against using it because I didn't like what it looked like with low resolution and ASCII graphics.
